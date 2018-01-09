@@ -1,6 +1,8 @@
 ## Servers Configuration - Part I
 
-Check differences with previous lesson 
+Check differences with previous lesson
+
+In variables.tf replace 1.1.1.1 with your public IP address 
 
 Deploy update and notice how the bastion is automatically recreated : a user data config change triggers the recreation of the server 
  

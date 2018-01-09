@@ -2,6 +2,8 @@
 
 This time we use separate script files. Which allow to make the terraform code cleaner
 
+In variables.tf replace 1.1.1.1 with your public IP address
+
 Check differences with previous lesson 
 
 Deploy

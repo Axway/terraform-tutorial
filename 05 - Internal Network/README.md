@@ -1,5 +1,7 @@
 ## Internal Network
 
+In variables.tf replace 1.1.1.1 with your public IP address
+
 Check the differences with the previous lesson
  
 Try to quickly draw a network diagram by hand

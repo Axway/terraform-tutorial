@@ -1,5 +1,7 @@
 ## VPC
 
+In variables.tf replace 1.1.1.1 with your public IP address 
+
 Deploy
 
     terraform init
