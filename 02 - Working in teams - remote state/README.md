@@ -1,6 +1,6 @@
 ## Working in teams - remote state
 
-An S3 bucket is already created : [axway-adi-terraform-tutorial]
+An S3 bucket is already created : [condor-terraform-tutorial]
 
 We're going to tell terraform to store states in the bucket, this way several people can work on the same project
 

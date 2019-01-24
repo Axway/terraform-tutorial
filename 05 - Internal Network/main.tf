@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 0.10.6"
   backend "s3" {
-    bucket = "axway-adi-terraform-tutorial"
+    bucket = "condor-terraform-tutorial"
     key = "terraform.tfstate"
     workspace_key_prefix = "terraform-states"
     encrypt = "true"
