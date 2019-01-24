@@ -18,5 +18,5 @@ module "foundation" {
   project = "${var.project}"
   platform = "${terraform.workspace}"
   team = "${var.team}"
-  ami = "ami-0018f5be0ccc813c8"
+  ami = "ami-3b261642"
 }

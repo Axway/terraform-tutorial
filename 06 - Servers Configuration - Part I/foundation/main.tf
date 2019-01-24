@@ -3,7 +3,7 @@ variable "platform" {}
 variable "team" {}
 variable "ssh_public_key" {}
 variable "ami" {
-  default = "ami-0018f5be0ccc813c8"
+  default = "ami-3b261642"
 }
 
 resource "aws_instance" "bastion" {

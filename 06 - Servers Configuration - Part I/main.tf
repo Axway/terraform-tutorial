@@ -19,12 +19,12 @@ module "foundation" {
   platform = "${terraform.workspace}"
   team = "${var.team}"
   ssh_public_key = "${var.ssh_public_key}"
-  ami = "ami-0018f5be0ccc813c8"
+  ami = "ami-3b261642"
   cidr_blocks_allowed_to_ssh_bastion = "${var.my_ip_address}"
 }
 
 resource "aws_instance" "internal" {
-  ami = "ami-0018f5be0ccc813c8"
+  ami = "ami-3b261642"
   instance_type = "t2.micro"
   tags {
     Name = "${terraform.workspace}_dummy_server1"

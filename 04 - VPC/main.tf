@@ -19,6 +19,6 @@ module "foundation" {
   platform = "${terraform.workspace}"
   team = "${var.team}"
   ssh_public_key = "${var.ssh_public_key}"
-  ami = "ami-0018f5be0ccc813c8"
+    ami = "ami-3b261642"
   cidr_blocks_allowed_to_ssh_bastion = "${var.my_ip_address}"
 }
