@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "bastion" {
-  ami = "ami-7cbc6e13"
+  ami = "ami-0018f5be0ccc813c8"
   instance_type = "t2.micro"
   tags {
     Name = "first_instance"

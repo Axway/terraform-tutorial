@@ -2,7 +2,7 @@ variable "project" {}
 variable "platform" {}
 variable "team" {}
 variable "ami" {
-  default = "ami-7cbc6e13"
+  default = "ami-0018f5be0ccc813c8"
 }
 
 resource "aws_instance" "bastion" {
