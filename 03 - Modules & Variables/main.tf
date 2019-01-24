@@ -5,12 +5,12 @@ terraform {
     key = "terraform.tfstate"
     workspace_key_prefix = "terraform-states"
     encrypt = "true"
-    region = "eu-central-1"
+    region = "eu-west-1"
   }
 }
 
 provider "aws" {
-  region = "eu-central-1"
+  region = "eu-west-1"
 }
 
 module "foundation" {
