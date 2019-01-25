@@ -22,7 +22,7 @@ resource "aws_instance" "bastion" {
   user_data = <<-EOF
               #!/bin/bash
               set -xv
-              echo 'export PS1="(${var.platform}-bastion) PS1"' >> /etc/bashrc
+              echo 'export PS1="(${var.platform}-bastion) $PS1"' >> /etc/bashrc
               EOF
 }
 
